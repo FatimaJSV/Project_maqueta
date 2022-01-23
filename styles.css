@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+}
+.banner{
+    background-image: url('banner.jpg');
+    width: 100%;
+    background-size: cover;
+    background-position-y: center;
+}
+.one > h1{
+    background-color: #82b440;
+    color: #eeeeef;
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px;
+    position: absolute;
+    top:8rem;
+    margin-left: 43%;
+    margin-right: 43%;
+    font-weight: lighter;
+    text-align: center;
+}
+.two > h2{
+    text-align: center;
+    color: #eeeeef;
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    top:11rem;
+    right: 8%;
+    left: 10%;
+    line-height: 30px;
+    font-weight: lighter;
+}
+.three > h3{
+    color: #eeeeef;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    font-size: small;
+    width: 100%;
+    font-weight: lighter;
+    position: fixed;
+    top: 0%;
+    margin: 0%;
+}
+.text1{
+    background-color: #f2f2f2;
+    font-family: 'Open Sans', sans-serif;
+    color: #555555;
+    font-weight: lighter;
+    font-size: x-large;
+    padding: 5rem;
+    line-height: 30px;
+}
+.vert{
+    width: 97.8%;
+    height: 350px;
+    background-color: #82b440;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #eeeeef;
+    padding: 50px;
+    font-size:xx-large;
+    font-weight: 600;
+}
+.vert::after{
+    position: absolute;
+    width: 95.0%;
+    height: 50%;
+    content: '';
+    background: #82b440;
+    left: 5%;
+    transform: skewY(-8deg);
+    z-index: 99999;
+}
+.container{
+    display: flex;
+    background-color: white;
+    padding:5%;
+    height: 45rem;
+    flex-direction: row;
+}
+.container div{
+    margin-top: 20pc;
+}
+.container div h5{
+    text-align: left ;
+    margin-left: 3%;
+    color: #82b440;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    font-size:larger;
+    letter-spacing: 4px;
+    margin-bottom: 30px;
+
+}
+
+footer{
+    background: #222222;
+    font-family:'Open Sans', sans-serif;
+    width: 100%;
+    color: #555555;
+    height: auto;
+    padding-top: 40px;
+    height: 50pc
+    
+}
+.final{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 40px;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 29px;
+    padding: 30px;
+    font-size: larger;
+    
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    color: #555555;
+}
+
+
